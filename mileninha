@@ -1,8 +1,11 @@
+HTML:
+
 <!DOCTYPE html>
 <html>
   <head>
     <title>Benefício Iogurte</title>
     <meta charset="utf-8">
+    <link rel="sttlesheet" href="milena.style.css">
 </head>
 <header>
     <h1>Benefícios do Iogurte na Saúde</h1>
@@ -18,3 +21,34 @@
 </figure>
 </body>
 </html>
+
+CSS:
+
+p {   
+    color: blue;
+    background-color: yellow;
+}
+    h1 {
+        font-family: serif;
+}
+    h2 {
+        font-family: sans-serif;
+} 
+    p {
+        font-family: monospace;
+}
+    p {
+                text-align: right;
+}
+    p {
+            line-height: 3px; 
+            letter-spacing: 3px; 
+            word-spacing: 5px; 
+            text-indent: 30px;
+}
+    body {
+            border-color: red;
+            border-style: solid;
+            border-width: 1px;
+}
+          
